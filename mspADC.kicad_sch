@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cc51eb27-09d1-4201-b7e5-5746f3ecb951)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 95.25) (size 29.21 69.85) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0096f44c-a06f-4b52-b022-3e381c1118cd)
+    (property "Sheetname" "mcu" (at 88.9 94.5384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 88.9 165.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mspADC"
+        (path "/cc51eb27-09d1-4201-b7e5-5746f3ecb951" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
